@@ -1,0 +1,5 @@
+cd /my-app
+npm install axios --no-audit
+cd /my-app/server/
+npm i nodemon
+npm run dev
