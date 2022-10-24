@@ -5,7 +5,7 @@ export default class App extends React.Component {
   state = {
     dom: []
   }
-    componentDidMount() {
+    componentWillMount() {
     axios.get(`http://localhost:3001/table1`)
       .then(res => {
         const dom = res.data;
